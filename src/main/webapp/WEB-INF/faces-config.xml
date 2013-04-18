@@ -1,4 +1,5 @@
-/*
+<?xml version="1.0"?>
+<!--
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -15,28 +16,19 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
- */
-
-package com.tentelemed.demo.activiticdi.service;
-
-import javax.annotation.security.RolesAllowed;
-import javax.ejb.EJB;
-import javax.ejb.Stateless;
-
-/**
- * @author Werner Punz (latest modification by $Author$)
- * @version $Revision$ $Date$
- *
- * This ejb uses security to fortify its functionality
- */
-@Stateless
-@RolesAllowed("authenticated-user")
-public class SecuredEJB
-{
-    @EJB
-    HelloEJB helloEJB;
-
-    public String getHelloAuthenticated() {
-        return helloEJB.getHello();
-    }
-}
+-->
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+              version="2.0">
+    <application>
+        <resource-bundle>
+            <base-name>com.github.werpu.i18n.Messages</base-name>
+            <var>msgs</var>
+        </resource-bundle>
+        <locale-config>
+            <default-locale>en</default-locale>
+            <supported-locale>de</supported-locale>
+        </locale-config>
+    </application>
+</faces-config>

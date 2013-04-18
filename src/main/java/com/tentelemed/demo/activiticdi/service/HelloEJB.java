@@ -19,7 +19,7 @@
 
 package com.tentelemed.demo.activiticdi.service;
 
-import com.github.werpu.tomeedemo.orm.HelloEntity;
+import com.tentelemed.demo.activiticdi.bo.HelloEntity;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;

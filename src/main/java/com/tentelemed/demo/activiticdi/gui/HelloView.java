@@ -17,26 +17,26 @@
  * under the License.
  */
 
-package com.tentelemed.demo.activiticdi.service;
+package com.tentelemed.demo.activiticdi.gui;
 
-import javax.annotation.security.RolesAllowed;
+import com.tentelemed.demo.activiticdi.service.HelloEJB;
+
 import javax.ejb.EJB;
-import javax.ejb.Stateless;
+import javax.faces.bean.RequestScoped;
+import javax.inject.Named;
 
 /**
  * @author Werner Punz (latest modification by $Author$)
  * @version $Revision$ $Date$
- *
- * This ejb uses security to fortify its functionality
  */
-@Stateless
-@RolesAllowed("authenticated-user")
-public class SecuredEJB
-{
+@Named
+@RequestScoped
+public class HelloView {
     @EJB
-    HelloEJB helloEJB;
+    HelloEJB helloEjb;
 
-    public String getHelloAuthenticated() {
-        return helloEJB.getHello();
+    //---------------------------- getter and setter ---------------------------------
+    public String getHelloWorld() {
+        return helloEjb.getHello();
     }
 }
