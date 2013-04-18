@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="activiti-cdi1:war exploded">
+    <output-path>$PROJECT_DIR$/target/activiti-cdi1-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="activiti-cdi1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="activiti-cdi1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.activiti:activiti-engine:5.12" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-cdi:5.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.1.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

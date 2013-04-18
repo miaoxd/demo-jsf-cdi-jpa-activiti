@@ -1,0 +1,12 @@
+
+Etapes :
+[+] Install TomEE
+[+] Configuration d'un pom.xml de test contenant : JEE6 + Activiti + JPA + H2 + Log + plugin tomee  (utilisation de JSF de base)
+[+] Projet sur GitHub
+[ ] Projet de test avec page de login, bdd, jpa...
+[ ] Integration Activiti + process basique
+[ ] IHM en JSF : lancer process, taches en cours, formulaire pour cloturer
+[ ] TU du process
+[ ] Integration Drools
+[ ] Déploiement sur PF integration continue
+[ ] Migration Vaadin
