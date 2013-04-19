@@ -29,7 +29,7 @@
     </list>
     <ignored path="activiti-cdi1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366391469381" ignored="false" />
+    <file path="/Dummy.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366391531505" ignored="false" />
     <file path="$PROJECT_DIR$/../Activiti/.idea/workspace.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366301674985" ignored="false" />
     <file path="/pom.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366389131266" ignored="false" />
     <file path="$PROJECT_DIR$/../tomeemaven/.idea/artifacts/tomeemaven_war_exploded.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
@@ -169,7 +169,7 @@
       <file leaf-file-name="Auth.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="22" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.6605505">
+            <state line="60" column="34" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.6605505">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1059,7 +1059,11 @@
       <created>1366391481417</created>
       <updated>1366391481417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4">
+      <created>1366391534933</created>
+      <updated>1366391534933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1294,7 +1298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="22" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.6605505">
+        <state line="60" column="34" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.6605505">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
