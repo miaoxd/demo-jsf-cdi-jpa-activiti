@@ -31,8 +31,7 @@ import javax.persistence.Version;
  */
 
 @Entity
-public class HelloEntity
-{
+public class HelloEntity {
     @Id
     @GeneratedValue
     Integer id;

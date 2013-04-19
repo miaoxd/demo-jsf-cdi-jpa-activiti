@@ -8,7 +8,7 @@
     <persistence-unit name="Demo_Unit">
         <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
         <jta-data-source>MyDataSource</jta-data-source>
-        <class>com.tentelemed.demo.activiticdi.bo.HelloEntity</class>
+        <!--<class>com.tentelemed.demo.activiticdi.bo.HelloEntity</class>-->
 
         <properties>
             <property name="openjpa.jdbc.DBDictionary" value="hsql"/>

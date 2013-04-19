@@ -19,7 +19,7 @@
 
 package com.tentelemed.demo.activiticdi.gui;
 
-import com.tentelemed.demo.activiticdi.service.HelloEJB;
+import com.tentelemed.demo.activiticdi.service.HelloService;
 
 import javax.ejb.EJB;
 import javax.faces.bean.RequestScoped;
@@ -33,7 +33,7 @@ import javax.inject.Named;
 @RequestScoped
 public class HelloView {
     @EJB
-    HelloEJB helloEjb;
+    HelloService helloEjb;
 
     //---------------------------- getter and setter ---------------------------------
     public String getHelloWorld() {

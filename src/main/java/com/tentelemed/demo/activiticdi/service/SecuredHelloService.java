@@ -31,12 +31,11 @@ import javax.ejb.Stateless;
  */
 @Stateless
 @RolesAllowed("authenticated-user")
-public class SecuredEJB
-{
+public class SecuredHelloService {
     @EJB
-    HelloEJB helloEJB;
+    HelloService helloService;
 
     public String getHelloAuthenticated() {
-        return helloEJB.getHello();
+        return helloService.getHello();
     }
 }

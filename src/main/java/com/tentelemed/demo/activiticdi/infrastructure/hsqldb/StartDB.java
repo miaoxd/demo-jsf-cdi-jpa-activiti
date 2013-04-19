@@ -25,9 +25,10 @@ import org.hsqldb.server.ServerAcl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import java.io.IOException;
 
 /**
@@ -38,14 +39,14 @@ import java.io.IOException;
  * use it embedded but this way we can have a look
  * into the running db
  */
-@WebServlet(urlPatterns = "/db/*", loadOnStartup = 1)
-public class HsqlDBStartupServlet extends HttpServlet
-{
-    Logger log = LoggerFactory.getLogger(HsqlDBStartupServlet.class);
+//@WebServlet(urlPatterns = "/db/*", loadOnStartup = 1)
+@Singleton
+@Startup
+public class StartDB {
+    Logger log = LoggerFactory.getLogger(StartDB.class);
 
-    @Override
+    @PostConstruct
     public void init() throws ServletException {
-        super.init();
         try {
             log.info("Starting Database");
             HsqlProperties p = new HsqlProperties();

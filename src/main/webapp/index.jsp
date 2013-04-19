@@ -18,5 +18,5 @@
 -->
 <%@ page session="false" %>
 <%
-    response.sendRedirect("helloView.jsf");
+    response.sendRedirect("login.jsf");
 %>

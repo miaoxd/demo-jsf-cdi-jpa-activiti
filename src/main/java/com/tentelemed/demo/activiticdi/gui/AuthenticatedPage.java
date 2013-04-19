@@ -19,7 +19,7 @@
 
 package com.tentelemed.demo.activiticdi.gui;
 
-import com.tentelemed.demo.activiticdi.service.SecuredEJB;
+import com.tentelemed.demo.activiticdi.service.SecuredHelloService;
 
 import javax.ejb.EJB;
 import javax.faces.bean.RequestScoped;
@@ -37,25 +37,18 @@ import java.io.IOException;
  */
 @Named
 @RequestScoped
-public class AuthenticatedPage
-{
+public class AuthenticatedPage {
     @EJB
-    SecuredEJB securedEJB;
+    SecuredHelloService securedEJB;
 
     public String doLogout() {
-        try
-        {
+        try {
             ((HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest()).logout();
             ((HttpSession) FacesContext.getCurrentInstance().getExternalContext().getSession(true)).invalidate();
             ((HttpServletResponse)  FacesContext.getCurrentInstance().getExternalContext().getResponse()).sendRedirect(
                     FacesContext.getCurrentInstance().getExternalContext().getRequestContextPath());
         }
-        catch (ServletException e)
-        {
-            e.printStackTrace();
-        }
-        catch (IOException e)
-        {
+        catch (ServletException | IOException e) {
             e.printStackTrace();
         }
         return "logout";

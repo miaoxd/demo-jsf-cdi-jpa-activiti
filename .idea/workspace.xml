@@ -25,53 +25,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159ae339-82b1-4eae-9a12-e2e1dac81796" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/AuthenticatedPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/user/authenticatedPage.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login/error.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/helloView.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login/login.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tomee/conf/tomcat-users.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/tomee/conf/tomee.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__javax_javaee_api_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DbInit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DefaultService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/tentelemed/demo/activiticdi/i18n/Messages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/tentelemed/demo/activiticdi/i18n/Messages_fr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login/login2.xhtml" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__commons_lang_commons_lang_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__javax_mail_mail_1_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__joda_time_joda_time_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_activiti_activiti_bpmn_converter_5_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_activiti_activiti_bpmn_model_5_12.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_activiti_activiti_cdi_5_12.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_activiti_activiti_engine_5_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_apache_commons_commons_email_1_2.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_codehaus_groovy_groovy_all_2_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_hsqldb_hsqldb_2_2_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloEJB.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloEJB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredEJB.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredEJB.java" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_mybatis_mybatis_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_slf4j_jcl_over_slf4j_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_springframework_spring_asm_3_1_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_springframework_spring_beans_3_1_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\.idea\libraries\Maven__org_springframework_spring_core_3_1_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\webapp\login\login.xhtml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\java\com\tentelemed\demo\activiticdi\infrastructure\hsqldb\HsqlDBStartupServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/hsqldb/StartDB.java" />
+      <change type="MOVED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\java\com\tentelemed\demo\activiticdi\service\HelloEJB.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloService.java" />
+      <change type="MOVED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\java\com\tentelemed\demo\activiticdi\service\SecuredEJB.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredHelloService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/AuthenticatedPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/AuthenticatedPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/HelloEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/HelloEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activiti-cdi1.iml" afterPath="$PROJECT_DIR$/activiti-cdi1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/activiti_cdi1_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/activiti_cdi1_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/user/authenticatedPage.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/user/authenticatedPage.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/helloView.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/helloView.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/tomee/conf/tomcat-users.xml" afterPath="$PROJECT_DIR$/src/main/tomee/conf/tomcat-users.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/tomee/conf/tomee.xml" afterPath="$PROJECT_DIR$/src/main/tomee/conf/tomee.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="activiti-cdi1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366319240794" ignored="false" />
+    <file path="/Dummy.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363857627" ignored="false" />
     <file path="$PROJECT_DIR$/../Activiti/.idea/workspace.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366301674985" ignored="false" />
-    <file path="/pom.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302056888" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/artifacts/tomeemaven_war_exploded.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/vcs.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/misc.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/libraries/Maven__org_hsqldb_hsqldb_2_2_8.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/libraries/Maven__javax_javaee_api_6_0.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/workspace.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366307015777" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/compiler.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/artifacts/tomeemaven_war.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="$PROJECT_DIR$/../tomeemaven/.idea/modules.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302351548" ignored="false" />
-    <file path="/HsqlDBStartupServlet.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366302586441" ignored="false" />
+    <file path="/pom.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366389131266" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/artifacts/tomeemaven_war_exploded.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/vcs.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363884706" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/misc.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363884706" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/libraries/Maven__org_hsqldb_hsqldb_2_2_8.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/libraries/Maven__javax_javaee_api_6_0.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/workspace.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366391413567" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/compiler.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363884706" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/artifacts/tomeemaven_war.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/modules.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363884706" ignored="false" />
+    <file path="/HsqlDBStartupServlet.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366378243571" ignored="false" />
     <file path="/README.md" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366303003746" ignored="false" />
     <file path="/infos.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366304893045" ignored="false" />
     <file path="/persistence.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366305064099" ignored="false" />
     <file path="C:/projets/europe/eaihs-server/src/test/java/com/tentelemed/eaihs/serverimpl/dao/TestSpec.groovy" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366306369194" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/tomee/conf/tomcat-users.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/resources/com/github/werpu/i18n/Messages.properties" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366367123316" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/helloView.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/WEB-INF/web.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363885638" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/login/login.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/java/com/github/werpu/tomeedemo/orm/HelloEntity.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/java/com/github/werpu/tomeedemo/service/SecuredEJB.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/java/com/github/werpu/tomeedemo/service/HelloEJB.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363812542" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/pom.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/tomee/conf/tomee.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/scopes/scope_settings.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/.idea/copyright/profiles_settings.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/resources/META-INF/persistence.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/resources/META-INF/beans.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363981937" ignored="false" />
+    <file path="/tomee.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366364117776" ignored="false" />
+    <file path="/AuthenticatedPage.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366365732040" ignored="false" />
+    <file path="/Mesages_fr.properties" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366366996079" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/resources/com/github/werpu/i18n/Messages_de.properties" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366366953754" ignored="false" />
+    <file path="/faces-config.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366367092214" ignored="false" />
+    <file path="/web.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366367483681" ignored="false" />
+    <file path="/Messages_fr.properties" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366368176055" ignored="false" />
+    <file path="/tomcat-users.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366368280199" ignored="false" />
+    <file path="/login.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366391306531" ignored="false" />
+    <file path="/helloView.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366373546879" ignored="false" />
+    <file path="/authenticatedPage.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366373411249" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/index.jsp" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/user/authenticatedPage.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/login/error.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/WEB-INF/faces-config.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/java/com/github/werpu/tomeedemo/gui/HelloView.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="$PROJECT_DIR$/../tomeemaven/src/main/java/com/github/werpu/tomeedemo/gui/AuthenticatedPage.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
+    <file path="/User.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366379178472" ignored="false" />
+    <file path="/DbInit.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366378175358" ignored="false" />
+    <file path="/a.dummy" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366380058208" ignored="false" />
+    <file path="/HelloEJB.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366377656197" ignored="false" />
+    <file path="/Auth.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366387690733" ignored="false" />
+    <file path="/fragment.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366381366922" ignored="false" />
+    <file path="/UserService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366382485550" ignored="false" />
+    <file path="/DefaultSevice.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366382295160" ignored="false" />
+    <file path="/HelloService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366381900488" ignored="false" />
+    <file path="/DefaultService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366382260979" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_3_5_2.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366389180611" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_3_5.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366389200072" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +193,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java" line="46" class="com.tentelemed.demo.activiticdi.gui.Auth" package="com.tentelemed.demo.activiticdi.gui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -132,10 +219,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tomee.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/tomee/conf/tomee.xml">
+      <file leaf-file-name="Auth.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="54" column="24" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.30861244">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EJB.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/javax/ejb/EJB.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="18" selection-start="386" selection-end="386" vertical-scroll-proportion="-4.76">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login2.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login/login2.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="48" selection-start="1745" selection-end="1772" vertical-scroll-proportion="-9.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="45" selection-start="2219" selection-end="2219" vertical-scroll-proportion="-7.3076925">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="24" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,7 +269,22 @@
       <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="15" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.16">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="32" selection-start="857" selection-end="857" vertical-scroll-proportion="-13.076923">
               <folding />
             </state>
           </provider>
@@ -153,43 +293,7 @@
       <file leaf-file-name="helloView.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/helloView.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1360" selection-end="1360" vertical-scroll-proportion="-22.23077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="infos.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/infos.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="34" column="35" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-9.269231">
               <folding />
             </state>
           </provider>
@@ -198,31 +302,27 @@
       <file leaf-file-name="authenticatedPage.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/user/authenticatedPage.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1327" selection-end="1327" vertical-scroll-proportion="-11.333333">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.807693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login/error.xhtml">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1456" selection-end="1456" vertical-scroll-proportion="-13.666667">
-              <folding>
-                <marker date="1366319797844" expanded="true" signature="982:1454" placeholder="..." />
-              </folding>
+            <state line="87" column="30" selection-start="3035" selection-end="3035" vertical-scroll-proportion="-16.12">
+              <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login/login.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1443" selection-end="1443" vertical-scroll-proportion="-13.333333">
-              <folding>
-                <marker date="1366319797849" expanded="true" signature="982:1441" placeholder="..." />
-              </folding>
-            </state>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -244,22 +344,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DbInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/hsqldb/HsqlDBStartupServlet.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/doc/infos.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/HelloEntity.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloEJB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredEJB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/AuthenticatedPage.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/user/authenticatedPage.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login/error.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login/login.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/hsqldb/StartDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredHelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DefaultSevice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DefaultService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/helloView.xhtml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login/login.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
       </list>
     </option>
   </component>
@@ -288,10 +388,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="1272" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1296" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -304,15 +404,15 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -327,6 +427,10 @@
               <option name="myItemId" value="activiti-cdi1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -335,6 +439,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,6 +577,216 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="i18n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'Messages'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiticdi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiticdi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hsqldb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiticdi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiticdi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -479,14 +811,26 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomeemaven/pom.xml" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="Xhtml" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Xhtml" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\webapp\login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\webapp" />
+      <recent name="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\webapp\login" />
+      <recent name="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\webapp\img" />
+      <recent name="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\webapp\js" />
+      <recent name="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\webapp\css" />
+    </key>
   </component>
   <component name="RunManager" selected="TomEE Server.TomEE 7.0">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -512,19 +856,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -555,6 +886,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -568,6 +912,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -591,8 +942,19 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="false" name="TomEE 7.0" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 7.0">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="activiti-cdi1:war exploded">
           <settings>
@@ -749,39 +1111,40 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1936" height="1096" extended-state="0" />
+    <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.26613817" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14887941" sideWeight="0.5228967" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.5228967" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4771033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.56738394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4767837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43261608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14829822" sideWeight="0.5232163" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -850,129 +1213,138 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloEJB.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/javax/persistence/EntityManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="4" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/hsqldb/HsqlDBStartupServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/HelloEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="44" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="23" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/AuthenticatedPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/tomee/conf/tomcat-users.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="53" column="28" selection-start="1916" selection-end="1916" vertical-scroll-proportion="-10.96">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/tomee/conf/tomee.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DefaultService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/error.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1456" selection-end="1456" vertical-scroll-proportion="-13.666667">
+        <state line="12" column="22" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1366319797844" expanded="true" signature="982:1454" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/login.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1443" selection-end="1443" vertical-scroll-proportion="-13.333333">
+        <state line="22" column="31" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1366319797849" expanded="true" signature="982:1441" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="33" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="9" selection-start="1750" selection-end="1750" vertical-scroll-proportion="-12.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/hsqldb/StartDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="15" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/login2.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="48" selection-start="1745" selection-end="1772" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/javax/ejb/EJB.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="386" selection-end="386" vertical-scroll-proportion="-4.76">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/user/authenticatedPage.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1327" selection-end="1327" vertical-scroll-proportion="-11.333333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="15" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.807693">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/helloView.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1360" selection-end="1360" vertical-scroll-proportion="-22.23077">
+        <state line="34" column="35" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-9.269231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/infos.txt">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+        <state line="47" column="24" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.16">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="30" selection-start="3035" selection-end="3035" vertical-scroll-proportion="-16.12">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="32" selection-start="857" selection-end="857" vertical-scroll-proportion="-13.076923">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="45" selection-start="2219" selection-end="2219" vertical-scroll-proportion="-7.3076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="24" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.30861244">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

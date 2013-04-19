@@ -20,11 +20,11 @@
 package com.tentelemed.demo.activiticdi.service;
 
 import com.tentelemed.demo.activiticdi.bo.HelloEntity;
+import com.tentelemed.demo.activiticdi.bo.User;
 
 import javax.ejb.Stateless;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 
 /**
  * @author Werner Punz (latest modification by $Author$)
@@ -32,18 +32,26 @@ import javax.persistence.Query;
  */
 
 @Stateless
-public class HelloEJB {
-    @PersistenceContext(name = "Demo_Unit")
-    EntityManager em;
+public class HelloService extends DefaultService {
 
     public String getHello() {
         Query query = em.createQuery("select hello from HelloEntity hello");
+        String res = "";
         if (query.getResultList().size() == 0) {
             HelloEntity entity = new HelloEntity();
             em.persist(entity);
-            return entity.getHelloWorld();
+            res += entity.getHelloWorld();
         }
         HelloEntity entity = (HelloEntity) query.getResultList().get(0);
-        return entity.getHelloWorld();
+        res += entity.getHelloWorld();
+        res += "DEBUT";
+
+        TypedQuery<User> query2 = em.createQuery("select u from User u", User.class);
+        for (User u : query2.getResultList()) {
+            res += "\n"+u.getLogin();
+        }
+
+        res += "FIN";
+        return res;
     }
 }
