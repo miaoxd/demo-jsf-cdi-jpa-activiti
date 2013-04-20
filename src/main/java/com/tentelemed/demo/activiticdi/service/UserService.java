@@ -3,6 +3,7 @@ package com.tentelemed.demo.activiticdi.service;
 import com.tentelemed.demo.activiticdi.bo.User;
 
 import javax.ejb.Stateless;
+import javax.inject.Named;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,6 +12,7 @@ import javax.ejb.Stateless;
  * Time: 16:23
  */
 @Stateless
+@Named
 public class UserService extends DefaultService {
 
     public User find(String login, String password) {

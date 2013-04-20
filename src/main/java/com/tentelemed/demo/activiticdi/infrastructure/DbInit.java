@@ -17,7 +17,6 @@ import javax.persistence.PersistenceContext;
  */
 @Singleton
 @Startup
-@DependsOn("StartDB")
 public class DbInit {
 
     @PersistenceContext(name = "Demo_Unit")

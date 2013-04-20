@@ -19,12 +19,17 @@
 
 package com.tentelemed.demo.activiticdi.gui;
 
-import com.tentelemed.demo.activiticdi.service.HelloService;
+import org.slf4j.Logger;
 
-import javax.ejb.EJB;
 import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.io.IOException;
 
 /**
  * @author Werner Punz (latest modification by $Author$)
@@ -32,12 +37,21 @@ import javax.inject.Named;
  */
 @Named
 @RequestScoped
-public class HelloView {
-    @Inject
-    HelloService helloEjb;
+public class MainPageBean {
 
-    //---------------------------- getter and setter ---------------------------------
-    public String getHelloWorld() {
-        return helloEjb.getHello();
+    @Inject
+    Logger log;
+
+    public String doLogout() {
+        try {
+            ((HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest()).logout();
+            ((HttpSession) FacesContext.getCurrentInstance().getExternalContext().getSession(true)).invalidate();
+            ((HttpServletResponse) FacesContext.getCurrentInstance().getExternalContext().getResponse()).sendRedirect(
+                    FacesContext.getCurrentInstance().getExternalContext().getRequestContextPath());
+        } catch (ServletException | IOException e) {
+            e.printStackTrace();
+        }
+        return "logout";
     }
+
 }

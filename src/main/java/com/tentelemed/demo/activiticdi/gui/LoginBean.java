@@ -16,13 +16,10 @@ import java.io.IOException;
 
 @Named
 @ViewScoped
-public class Auth {
+public class LoginBean {
 
     private String username;
     private String password;
-
-    @Inject
-    private Logger log;
 
     @Inject
     private UserService userService;

@@ -38,7 +38,7 @@
                     <p:outputLabel styleClass="control-label" for="username" value="Username"/>
 
                     <div class="controls">
-                        <p:inputText id="username" value="#{auth.username}"/>
+                        <p:inputText id="username" value="#{loginBean.username}"/>
                         <p:message for="username"/>
                     </div>
                 </div>
@@ -46,13 +46,13 @@
                     <p:outputLabel styleClass="control-label" for="password" value="Password"/>
 
                     <div class="controls">
-                        <p:password id="password" value="#{auth.password}"/>
+                        <p:password id="password" value="#{loginBean.password}"/>
                         <p:message for="password"/>
                     </div>
                 </div>
 
                 <div class="form-actions">
-                    <p:commandButton styleClass="btn-primary" action="#{auth.login()}" value="Login" update="form1"/>
+                    <p:commandButton styleClass="btn-primary" action="#{loginBean.login()}" value="Login" update="form1"/>
                     <p:commandButton type="reset" value="Reset"/>
                 </div>
             </h:form>

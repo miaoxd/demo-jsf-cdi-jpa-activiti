@@ -29,7 +29,7 @@
     <h:form>
         <div class="row">
             <div class="span4">
-                <p:commandLink action="#{mainPage.doLogout}" value="logout"/>
+                <p:commandLink action="#{mainPageBean.doLogout}" value="logout"/>
             </div>
         </div>
         <h3>Liste des process</h3>
@@ -48,7 +48,7 @@
             </p:column>
             <p:column>
                 <f:facet name="header">Action</f:facet>
-                <p:commandButton actionListener="#{mainPage.startProcess(v_process.key)}"/>
+                <p:commandButton actionListener="#{processService.startProcess(v_process.key)}"/>
                 <!--<h:outputLink value="#{pro.startProcess(v_process.formKey)}">-->
                 <!--<h:outputLink value="#{formService.getStartFormData(v_process.id).formKey}">-->
                 <!--Start-->
