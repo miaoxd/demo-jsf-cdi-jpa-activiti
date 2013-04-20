@@ -23,6 +23,7 @@ import com.tentelemed.demo.activiticdi.service.HelloService;
 
 import javax.ejb.EJB;
 import javax.faces.bean.RequestScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
 
 /**
@@ -32,7 +33,7 @@ import javax.inject.Named;
 @Named
 @RequestScoped
 public class HelloView {
-    @EJB
+    @Inject
     HelloService helloEjb;
 
     //---------------------------- getter and setter ---------------------------------

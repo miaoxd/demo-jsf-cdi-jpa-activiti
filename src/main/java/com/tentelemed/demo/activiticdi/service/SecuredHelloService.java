@@ -22,6 +22,7 @@ package com.tentelemed.demo.activiticdi.service;
 import javax.annotation.security.RolesAllowed;
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 
 /**
  * @author Werner Punz (latest modification by $Author$)
@@ -32,7 +33,8 @@ import javax.ejb.Stateless;
 @Stateless
 @RolesAllowed("authenticated-user")
 public class SecuredHelloService {
-    @EJB
+
+    @Inject
     HelloService helloService;
 
     public String getHelloAuthenticated() {

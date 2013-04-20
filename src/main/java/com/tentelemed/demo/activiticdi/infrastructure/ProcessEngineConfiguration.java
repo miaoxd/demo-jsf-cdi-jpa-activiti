@@ -14,7 +14,6 @@ public class ProcessEngineConfiguration implements ProcessEngineLookup {
 
     public ProcessEngine getProcessEngine() {
         processEngine = new CdiStandaloneProcessEngineConfiguration()
-                //.setDatabaseType("hsqldb")
                 .setDatabaseSchemaUpdate("true")
                 .setJdbcDriver("org.h2.Driver")
                 .setJdbcUrl("jdbc:h2:mem:activiti;DB_CLOSE_DELAY=1000")

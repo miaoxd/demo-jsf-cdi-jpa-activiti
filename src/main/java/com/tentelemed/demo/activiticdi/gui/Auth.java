@@ -2,6 +2,7 @@ package com.tentelemed.demo.activiticdi.gui;
 
 import com.tentelemed.demo.activiticdi.bo.User;
 import com.tentelemed.demo.activiticdi.service.UserService;
+import org.apache.log4j.Logger;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ViewScoped;
@@ -19,6 +20,9 @@ public class Auth {
 
     private String username;
     private String password;
+
+    @Inject
+    private Logger log;
 
     @Inject
     private UserService userService;
