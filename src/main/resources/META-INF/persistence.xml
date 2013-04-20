@@ -7,7 +7,7 @@
     <!-- simply all annotated persistent entities will be part of this unit-->
     <persistence-unit name="Demo_Unit">
         <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
-        <jta-data-source>MyDataSource</jta-data-source>
+        <jta-data-source>My DataSource</jta-data-source>
         <!--<class>com.tentelemed.demo.activiticdi.bo.HelloEntity</class>-->
 
         <properties>

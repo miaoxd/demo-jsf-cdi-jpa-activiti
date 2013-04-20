@@ -1,4 +1,4 @@
-package com.tentelemed.demo.activiticdi.service;
+package com.tentelemed.demo.activiticdi.infrastructure;
 
 import com.tentelemed.demo.activiticdi.bo.User;
 
@@ -25,9 +25,12 @@ public class DbInit {
 
     @PostConstruct
     public void initDb() {
-        for (int i=0; i<10; i++) {
-            User user = new User("login"+i, "password"+i, "Paul"+i, "Durand"+i);
-            em.persist(user);
+        Long res = em.createQuery("select count(u) from User u", Long.class).getResultList().get(0);
+        if (res == 0) {
+            for (int i=0; i<10; i++) {
+                User user = new User("login"+i, "password"+i, "Paul"+i, "Durand"+i);
+                em.persist(user);
+            }
         }
     }
 }

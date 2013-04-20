@@ -41,7 +41,7 @@ import java.io.IOException;
  */
 //@WebServlet(urlPatterns = "/db/*", loadOnStartup = 1)
 @Singleton
-@Startup
+//@Startup
 public class StartDB {
     Logger log = LoggerFactory.getLogger(StartDB.class);
 

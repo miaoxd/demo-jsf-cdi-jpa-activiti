@@ -30,34 +30,34 @@
 <h:body>
     <div class="row-fluid">
         <div class="span4 offset4">
-            <legend>Authentification</legend>
 
-            <h:form styleClass="form-horizontal">
+            <h:form id="form1" styleClass="form-horizontal">
+                <legend>Authentification</legend>
+                <p:messages id="messages"/>
                 <div class="control-group">
-                    <h:outputLabel class="control-label" for="username" value="Username"/>
+                    <p:outputLabel styleClass="control-label" for="username" value="Username"/>
 
                     <div class="controls">
-                        <h:inputText id="username" value="#{auth.username}" required="true"/>
-                        <h:message for="username"/>
+                        <p:inputText id="username" value="#{auth.username}"/>
+                        <p:message for="username"/>
                     </div>
                 </div>
                 <div class="control-group">
-                    <h:outputLabel class="control-label" for="password" value="Password"/>
+                    <p:outputLabel styleClass="control-label" for="password" value="Password"/>
 
                     <div class="controls">
-                        <h:inputSecret id="password" value="#{auth.password}" required="true"/>
-                        <h:message for="password"/>
+                        <p:password id="password" value="#{auth.password}"/>
+                        <p:message for="password"/>
                     </div>
                 </div>
 
                 <div class="form-actions">
-                    <p:commandButton styleClass="btn btn-primary" action="#{auth.login()}" value="TOTO"/>
-                    <p:commandButton styleClass="btn" type="reset" value="Reset"/>
-                    <h:messages globalOnly="true"/>
+                    <p:commandButton styleClass="btn-primary" action="#{auth.login()}" value="Login" update="form1"/>
+                    <p:commandButton type="reset" value="Reset"/>
                 </div>
             </h:form>
         </div>
     </div>
-    <script type="text/javascript" src="js/bootstrap.min.js"/>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </h:body>
 </html>

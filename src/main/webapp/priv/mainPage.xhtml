@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>#{msgs.auth_pagetitle}</title>
+</h:head>
+<h:body>
+    <h:form>
+        <div class="row">
+            <div class="span4">
+                <p:commandLink action="#{mainPage.doLogout}" value="logout"/>
+            </div>
+        </div>
+        <h3>Liste des process</h3>
+        <p:dataTable value="#{processDefinitionList}" var="v_process">
+            <p:column>
+                <f:facet name="header">Key</f:facet>
+                #{v_process.key}
+            </p:column>
+            <p:column>
+                <f:facet name="header">Name</f:facet>
+                #{v_process.name}
+            </p:column>
+            <p:column>
+                <f:facet name="header">Version</f:facet>
+                #{v_process.version}
+            </p:column>
+            <p:column>
+                <f:facet name="header">Action</f:facet>
+                <p:commandButton actionListener="#{mainPage.startProcess(v_process.key)}"/>
+                <!--<h:outputLink value="#{pro.startProcess(v_process.formKey)}">-->
+                <!--<h:outputLink value="#{formService.getStartFormData(v_process.id).formKey}">-->
+                <!--Start-->
+                <!--<f:param name="processDefinitionKey" value="#{v_process.key}"/>-->
+                <!--</h:outputLink>-->
+            </p:column>
+        </p:dataTable>
+    </h:form>
+
+</h:body>
+</html>
