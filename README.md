@@ -1,4 +1,4 @@
-activiti-cdi-jpa
+JSF 2 (primefaces) CDI (TomEE) JPA Activiti
 ================
 
 Projet de test Activiti + TomEE + CDI + JPA + JSF (primefaces)
