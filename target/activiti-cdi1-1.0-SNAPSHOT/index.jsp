@@ -17,6 +17,4 @@
 * under the License.
 -->
 <%@ page session="false" %>
-<%
-    response.sendRedirect("helloView.jsf");
-%>
+<jsp:forward page="login.xhtml"/>

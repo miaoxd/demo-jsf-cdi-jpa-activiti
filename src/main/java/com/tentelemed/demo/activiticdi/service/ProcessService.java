@@ -19,7 +19,7 @@ import java.util.List;
  * Time: 23:18
  */
 @Stateless
-@RolesAllowed("authenticated-user")
+//@RolesAllowed("authenticated-user")
 @Named
 public class ProcessService extends DefaultService {
 

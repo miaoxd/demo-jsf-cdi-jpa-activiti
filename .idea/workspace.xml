@@ -25,18 +25,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159ae339-82b1-4eae-9a12-e2e1dac81796" name="Default" comment="4">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/LoggerProducer.java" />
-      <change type="DELETED" beforePath="C:\Users\Mael\Documents\GitHub\activiti-cdi-jpa\src\main\java\com\tentelemed\demo\activiticdi\infrastructure\hsqldb\StartDB.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/ProcessEngineConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/ProcessEngineConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredHelloService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredHelloService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/LoginBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/LoginBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPageBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPageBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/ProcessService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/ProcessService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/priv/mainPage.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/priv/mainPage.xhtml" />
+    </list>
+    <list id="391af885-8afb-4ae4-94a6-bee139e63903" name="do not commit" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="activiti-cdi1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366491813929" ignored="false" />
+    <file path="/Dummy.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369478342597" ignored="false" />
     <file path="$PROJECT_DIR$/../Activiti/.idea/workspace.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366301674985" ignored="false" />
     <file path="/pom.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366389131266" ignored="false" />
     <file path="$PROJECT_DIR$/../tomeemaven/.idea/artifacts/tomeemaven_war_exploded.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363829194" ignored="false" />
@@ -50,7 +50,7 @@
     <file path="$PROJECT_DIR$/../tomeemaven/.idea/modules.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366363884706" ignored="false" />
     <file path="/HsqlDBStartupServlet.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366378243571" ignored="false" />
     <file path="/README.md" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366303003746" ignored="false" />
-    <file path="/infos.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366304893045" ignored="false" />
+    <file path="/infos.txt" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366493463915" ignored="false" />
     <file path="/persistence.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366305064099" ignored="false" />
     <file path="C:/projets/europe/eaihs-server/src/test/java/com/tentelemed/eaihs/serverimpl/dao/TestSpec.groovy" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366306369194" ignored="false" />
     <file path="$PROJECT_DIR$/../tomeemaven/src/main/tomee/conf/tomcat-users.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
@@ -75,7 +75,7 @@
     <file path="/web.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366472673600" ignored="false" />
     <file path="/Messages_fr.properties" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366455814020" ignored="false" />
     <file path="/tomcat-users.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366452767230" ignored="false" />
-    <file path="/login.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366479441481" ignored="false" />
+    <file path="/login.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369481340600" ignored="false" />
     <file path="/helloView.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366373546879" ignored="false" />
     <file path="/authenticatedPage.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366373411249" ignored="false" />
     <file path="$PROJECT_DIR$/../tomeemaven/src/main/webapp/index.jsp" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956436" ignored="false" />
@@ -86,14 +86,14 @@
     <file path="$PROJECT_DIR$/../tomeemaven/src/main/java/com/github/werpu/tomeedemo/gui/AuthenticatedPage.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366372956437" ignored="false" />
     <file path="/User.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366379178472" ignored="false" />
     <file path="/DbInit.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366479921315" ignored="false" />
-    <file path="/a.dummy" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366478905667" ignored="false" />
+    <file path="/a.dummy" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369480268273" ignored="false" />
     <file path="/HelloEJB.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366377656197" ignored="false" />
     <file path="/Auth.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366491922669" ignored="false" />
     <file path="/fragment.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366490650068" ignored="false" />
-    <file path="/UserService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366382485550" ignored="false" />
+    <file path="/UserService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366492977578" ignored="false" />
     <file path="/DefaultSevice.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366382295160" ignored="false" />
     <file path="/HelloService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366381900488" ignored="false" />
-    <file path="/DefaultService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366382260979" ignored="false" />
+    <file path="/DefaultService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366492808523" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_3_5_2.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366389180611" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_3_5.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366389200072" ignored="false" />
     <file path="/index.jsp" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366474726685" ignored="false" />
@@ -127,16 +127,26 @@
     <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_3_RELEASE.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366460607477" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_3_RELEASE.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366460607477" ignored="false" />
     <file path="/activiti.cfg.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366457660545" ignored="false" />
-    <file path="/ProcessService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366478333509" ignored="false" />
+    <file path="/ProcessService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366493374304" ignored="false" />
     <file path="/ProcessEngineConfiguration.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366460965697" ignored="false" />
     <file path="/SecurityFilter.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366474904080" ignored="false" />
     <file path="/processes.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366476320539" ignored="false" />
     <file path="/process.bpmn20.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366477875770" ignored="false" />
-    <file path="/mainPage.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366480068875" ignored="false" />
-    <file path="/MainPage.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366492001557" ignored="false" />
+    <file path="/mainPage.xhtml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369480494830" ignored="false" />
+    <file path="/MainPage.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366492312115" ignored="false" />
     <file path="/LoggerProducer.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366491943798" ignored="false" />
     <file path="/HelloView.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366491981926" ignored="false" />
     <file path="/SecuredHelloService.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366492107423" ignored="false" />
+    <file path="/log4j.properties" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366493284935" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1366496884289" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitleddart/.idea/workspace.xml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369474799036" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitleddart/pubspec.yaml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369473642267" ignored="false" />
+    <file path="/pubspec.yaml" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369473642267" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitleddart/build.dart" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369474425181" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitleddart/testdart4.css" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369473945174" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitleddart/testdart4.dart" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369473959227" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitleddart/testdart4.html" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369473974064" ignored="false" />
+    <file path="/LoginBean.java" changelist="159ae339-82b1-4eae-9a12-e2e1dac81796" time="1369480916534" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +258,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPage.java" line="85" class="com.tentelemed.demo.activiticdi.gui.MainPage" package="com.tentelemed.demo.activiticdi.gui">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPageBean.java" line="46" class="com.tentelemed.demo.activiticdi.gui.MainPageBean" package="com.tentelemed.demo.activiticdi.gui">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -274,19 +284,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SecuredHelloService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredHelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="4" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProcessService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/ProcessService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="38" column="16" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainPage.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/priv/mainPage.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="57" selection-start="1401" selection-end="1401" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="21" selection-start="2124" selection-end="2124" vertical-scroll-proportion="-31.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="primefaces-p.taglib.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9970" column="8" selection-start="364532" selection-end="364532" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rebel.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloEntity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/HelloEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.08173077">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -294,77 +349,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/UserService.java">
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="295" selection-end="295" vertical-scroll-proportion="0.265625">
+            <state line="23" column="40" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auth.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java">
+      <file leaf-file-name="LoginBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/LoginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbInit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/DbInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+            <state line="55" column="28" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggerProducer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/LoggerProducer.java">
+      <file leaf-file-name="MainPageBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPageBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessEngineConfiguration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/ProcessEngineConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DefaultService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/SecurityFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+            <state line="43" column="29" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -390,22 +396,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/processes.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/diagrams/process.bpmn20.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/ProcessService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/hsqldb/StartDB.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/DbInit.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/priv/mainPage.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/LoggerProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/ProcessEngineConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredHelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/DbInit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DefaultService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/doc/infos.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/ProcessService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/priv/mainPage.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPageBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/rebel.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/LoginBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
       </list>
     </option>
   </component>
@@ -594,6 +600,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activiti-cdi-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="tomee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -617,118 +649,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diagrams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti-cdi-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="i18n" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -878,7 +798,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomeemaven/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
@@ -899,6 +819,14 @@
     </key>
   </component>
   <component name="RunManager" selected="TomEE Server.TomEE 7.0">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -1172,6 +1100,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="159ae339-82b1-4eae-9a12-e2e1dac81796" name="Default" comment="" />
+      <changelist id="391af885-8afb-4ae4-94a6-bee139e63903" name="do not commit" comment="" />
       <created>1366299340500</created>
       <updated>1366299340500</updated>
     </task>
@@ -1187,7 +1116,15 @@
       <created>1366491808167</created>
       <updated>1366491808167</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4">
+      <created>1366492229930</created>
+      <updated>1366492229930</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4">
+      <created>1366493543553</created>
+      <updated>1366493543553</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1230,6 +1167,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47667804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4493743" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1242,7 +1180,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1314,127 +1251,128 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.12.1/activiti-engine-5.12.1-sources.jar!/org/activiti/engine/EngineServices.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#1030#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+        <state line="21" column="20" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/HelloEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/HelloView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="10" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2977" selection-end="2977" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/org.activiti.cdi.spi.ProcessEngineLookup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/Auth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/DbInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+        <state line="32" column="45" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/LoggerProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/SecurityFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/ProcessEngineConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/DefaultService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/ProcessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/SecuredHelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="4" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
+        <state line="20" column="22" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="295" selection-end="295" vertical-scroll-proportion="0.265625">
+        <state line="15" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/infrastructure/SecurityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/service/ProcessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="16" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/priv/mainPage.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="57" selection-start="1401" selection-end="1401" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/MainPageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="29" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/gui/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="28" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9970" column="8" selection-start="364532" selection-end="364532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="21" selection-start="2124" selection-end="2124" vertical-scroll-proportion="-31.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tentelemed/demo/activiticdi/bo/HelloEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.08173077">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

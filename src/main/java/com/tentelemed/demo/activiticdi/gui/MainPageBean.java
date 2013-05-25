@@ -42,16 +42,16 @@ public class MainPageBean {
     @Inject
     Logger log;
 
-    public String doLogout() {
-        try {
-            ((HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest()).logout();
-            ((HttpSession) FacesContext.getCurrentInstance().getExternalContext().getSession(true)).invalidate();
-            ((HttpServletResponse) FacesContext.getCurrentInstance().getExternalContext().getResponse()).sendRedirect(
-                    FacesContext.getCurrentInstance().getExternalContext().getRequestContextPath());
-        } catch (ServletException | IOException e) {
-            e.printStackTrace();
-        }
-        return "logout";
-    }
+//    public String doLogout() {
+//        try {
+//            ((HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest()).logout();
+//            ((HttpSession) FacesContext.getCurrentInstance().getExternalContext().getSession(true)).invalidate();
+//            ((HttpServletResponse) FacesContext.getCurrentInstance().getExternalContext().getResponse()).sendRedirect(
+//                    FacesContext.getCurrentInstance().getExternalContext().getRequestContextPath());
+//        } catch (ServletException | IOException e) {
+//            e.printStackTrace();
+//        }
+//        return "logout";
+//    }
 
 }

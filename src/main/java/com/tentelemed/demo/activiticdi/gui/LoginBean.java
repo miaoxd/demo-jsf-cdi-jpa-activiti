@@ -18,8 +18,8 @@ import java.io.IOException;
 @ViewScoped
 public class LoginBean {
 
-    private String username;
-    private String password;
+    private String username = "login1";
+    private String password = "password1";
 
     @Inject
     private UserService userService;
@@ -49,6 +49,11 @@ public class LoginBean {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         externalContext.invalidateSession();
         externalContext.redirect(externalContext.getRequestContextPath() + "/login.xhtml");
+    }
+
+    public void reset() {
+        this.username = "ttt";
+        this.password = "ttt";
     }
 
     public String getUsername() {

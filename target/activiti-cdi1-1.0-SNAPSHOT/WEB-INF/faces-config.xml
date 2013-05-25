@@ -23,7 +23,7 @@
               version="2.0">
     <application>
         <resource-bundle>
-            <base-name>com.github.werpu.i18n.Messages</base-name>
+            <base-name>com.tentelemed.demo.activiticdi.i18n.Messages</base-name>
             <var>msgs</var>
         </resource-bundle>
         <locale-config>
