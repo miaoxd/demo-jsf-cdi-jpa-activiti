@@ -2,4 +2,5 @@
 <!-- list the processes to be deployed -->
 <processes>
     <process resource="diagrams/process.bpmn20.xml" />
+    <process resource="diagrams/drools.bpmn" />
 </processes>
