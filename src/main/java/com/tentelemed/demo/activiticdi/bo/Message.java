@@ -1,12 +1,14 @@
 package com.tentelemed.demo.activiticdi.bo;
 
+import java.io.Serializable;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Mael
  * Date: 02/09/13
  * Time: 17:40
  */
-public class Message {
+public class Message implements Serializable {
     public final static String HELLO = "hello";
     public final static String GOODBYE = "bye";
 

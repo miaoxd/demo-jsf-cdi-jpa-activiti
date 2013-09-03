@@ -10,7 +10,12 @@
              targetNamespace="http://www.activiti.org/test">
     <process id="drools" name="drools">
         <startEvent id="startevent1" name="Start"></startEvent>
-        <businessRuleTask id="businessruletask1" name="Business rule task" activiti:rules="Hello World,GoodBye" activiti:ruleVariablesInput="${m}" activiti:exclude="false" activiti:resultVariableName="rulesOutput"></businessRuleTask>
+        <businessRuleTask id="businessruletask1"
+                          name="Business rule task"
+                          activiti:rules="Hello World,GoodBye"
+                          activiti:ruleVariablesInput="${m}"
+                          activiti:exclude="false"
+                          activiti:resultVariableName="rulesOutput"></businessRuleTask>
         <endEvent id="endevent1" name="End"></endEvent>
         <sequenceFlow id="flow1" name="" sourceRef="startevent1" targetRef="businessruletask1"></sequenceFlow>
         <sequenceFlow id="flow2" name="" sourceRef="receivetask1" targetRef="endevent1"></sequenceFlow>
