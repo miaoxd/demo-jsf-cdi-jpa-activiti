@@ -4,6 +4,7 @@ import com.tentelemed.demo.activiticdi.bo.Message;
 import org.activiti.engine.ProcessEngine;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
+import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.runtime.ProcessInstance;
 
@@ -43,6 +44,10 @@ public class ProcessService extends DefaultService {
                 .list();
     }
 
+    public void resetProcessEngine() {
+        repositoryService = null;
+    }
+
     /**
      * Il est possible de définir les ressources a charger dans le fichier
      * processes.xml au lieu de les définir dans le code
@@ -50,7 +55,7 @@ public class ProcessService extends DefaultService {
     private void initRepositoryService() {
         if (repositoryService == null) {
             repositoryService = processEngine.getRepositoryService();
-            repositoryService
+            Deployment d = repositoryService
                     .createDeployment()
                     .addClasspathResource("diagrams/drools.bpmn")
                     .addClasspathResource("diagrams/process.bpmn20.xml")
@@ -62,6 +67,8 @@ public class ProcessService extends DefaultService {
 
     public void startProcess(String processKey) {
         try {
+            initRepositoryService();
+
             log.info("Start process : "+processKey);
 
             Map<String, Object> variableMap = new HashMap<>();

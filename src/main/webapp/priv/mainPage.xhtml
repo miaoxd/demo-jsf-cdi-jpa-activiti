@@ -24,6 +24,7 @@
       xmlns:p="http://primefaces.org/ui">
 <h:head>
     <title>#{msgs.auth_pagetitle}</title>
+    <link href="../css/default.css" rel="stylesheet" media="screen"/>
 </h:head>
 <h:body>
     <h:form>
@@ -49,13 +50,9 @@
             <p:column>
                 <f:facet name="header">Action</f:facet>
                 <p:commandButton actionListener="#{processService.startProcess(v_process.key)}"/>
-                <!--<h:outputLink value="#{pro.startProcess(v_process.formKey)}">-->
-                <!--<h:outputLink value="#{formService.getStartFormData(v_process.id).formKey}">-->
-                <!--Start-->
-                <!--<f:param name="processDefinitionKey" value="#{v_process.key}"/>-->
-                <!--</h:outputLink>-->
             </p:column>
         </p:dataTable>
+        <p:commandButton actionListener="#{processService.resetProcessEngine()}">TOTO</p:commandButton>
     </h:form>
 
 </h:body>
